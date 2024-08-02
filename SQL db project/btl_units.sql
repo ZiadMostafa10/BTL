@@ -40,7 +40,6 @@ CREATE TABLE `units` (
 
 LOCK TABLES `units` WRITE;
 /*!40000 ALTER TABLE `units` DISABLE KEYS */;
-INSERT INTO `units` VALUES (1,'CDR','',71,0),(2,'Guided trial tray','',68,0),(3,'Terea tray','',37,0),(4,'Medium device tray','',52,0),(5,'Large device tray','',20,0),(6,'Digital counter unit','',111,0),(7,'Unmanned','',130,0),(8,'Counter unit','',135,0),(9,'D FBW','',1,0),(10,'FBW','',5,0),(11,'IRR','',121,0),(12,'IRR L','',17,0),(13,'NG FBW','',18,0),(14,'NG HBW','',2,0),(15,'NG MBW','',18,0),(16,'NG IRR','',65,0);
 /*!40000 ALTER TABLE `units` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,5 +51,3 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2024-08-02 19:59:23
